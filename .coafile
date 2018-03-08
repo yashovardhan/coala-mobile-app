@@ -1,0 +1,15 @@
+[all.coala]
+bears = coalaBear
+use_spaces = True
+ignore = node_modules/, .expo/, npm-debug.*
+files = **.json, **.js, **.yml
+
+[all.json]
+bears = JSONFormatBear
+ignore = node_modules/, .expo/, npm-debug.*
+files = **.json
+
+[all.yaml]
+bears = YAMLLintBear
+ignore = node_modules/, .expo/, npm-debug.*
+files = **.yml
