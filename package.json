@@ -15,5 +15,8 @@
     },
     "eslintConfig": {
         "extends": "universe/native"
+    },
+    "scripts": {
+        "lint": "eslint **/*.js"
     }
 }
